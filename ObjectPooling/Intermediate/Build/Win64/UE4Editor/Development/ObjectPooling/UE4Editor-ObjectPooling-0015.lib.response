@@ -1,0 +1,14 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-ObjectPooling-0015.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\Epic Games_3\Project_C\Intermediate\Build\Win64\Project_CEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"D:\Epic Games_3\Project_C\Plugins\ObjectPooling\Intermediate\Build\Win64\UE4Editor\Development\ObjectPooling\Module.ObjectPooling.cpp.obj"
+"D:\Epic Games_3\Project_C\Plugins\ObjectPooling\Intermediate\Build\Win64\UE4Editor\Development\ObjectPooling\Module.ObjectPooling.gen.cpp.obj"
+"D:\Epic Games_3\Project_C\Plugins\ObjectPooling\Intermediate\Build\Win64\UE4Editor\Development\ObjectPooling\Default.rc2.res"
+/OUT:"D:\Epic Games_3\Project_C\Plugins\ObjectPooling\Intermediate\Build\Win64\UE4Editor\Development\ObjectPooling\UE4Editor-ObjectPooling-0015.lib"
+/INCLUDE:IMPLEMENT_MODULE_ObjectPooling

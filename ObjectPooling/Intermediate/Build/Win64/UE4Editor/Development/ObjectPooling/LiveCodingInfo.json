@@ -1,0 +1,26 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.ObjectPooling.cpp.obj": [
+			"BulletPoolingComponent.cpp.obj",
+			"EnemyProjectilePoolingComponent.cpp.obj",
+			"ObjectPooling.cpp.obj",
+			"ObjectPoolingComponent.cpp.obj",
+			"PlayerBulletPoolingComponent.cpp.obj",
+			"BaseProjectile.cpp.obj",
+			"EnemyProjectile.cpp.obj",
+			"PlayerProjectile.cpp.obj"
+		],
+		"Module.ObjectPooling.gen.cpp.obj": [
+			"BaseProjectile.gen.cpp.obj",
+			"BulletInfo.gen.cpp.obj",
+			"BulletPoolingComponent.gen.cpp.obj",
+			"EnemyProjectile.gen.cpp.obj",
+			"EnemyProjectilePoolingComponent.gen.cpp.obj",
+			"ObjectPooling.init.gen.cpp.obj",
+			"ObjectPoolingComponent.gen.cpp.obj",
+			"PlayerBulletPoolingComponent.gen.cpp.obj",
+			"PlayerProjectile.gen.cpp.obj"
+		]
+	}
+}
