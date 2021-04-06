@@ -9,7 +9,7 @@ ABaseProjectile::ABaseProjectile()
 
 	PrimaryActorTick.bCanEverTick = true;
 
-	PrimaryActorTick.TickInterval = 1.f / 60.f; //∆Ω∞£∞› 60«¡∑π¿” º≥¡§
+	PrimaryActorTick.TickInterval = 1.f / 60.f; //Ìã±Í∞ÑÍ≤© 60ÌîÑÎ†àÏûÑ ÏÑ§Ï†ï
 
 	SM_Bullet = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("BULLET"));
 	RootComponent = SM_Bullet;
@@ -53,8 +53,9 @@ void ABaseProjectile::Tick(float DeltaTime) {
 	if (mIsAlive)
 	{
 		SetRadianValue();
-		SetLocationValue();
 		SetAddtiveValue();
+		SetLocationValue();
+
 		MoveBullet();
 
 		if (GetIsEndOfLevel()) 
@@ -73,7 +74,7 @@ FORCEINLINE void ABaseProjectile::SetBulletDamage(const float& p_BulletDamage)
 
 FORCEINLINE void ABaseProjectile::SetRadianValue()
 {
-	mRadianValue = mBulletInfo.GetShooterAngle() * UKismetMathLibrary::GetPI() * 2.f; //∞¢µµ∏¶ ∂Ûµæ» ¥‹¿ß∑Œ ∫Ø»Ø
+	mRadianValue = mBulletInfo.GetShooterAngle() * UKismetMathLibrary::GetPI() * 2.f; //Í∞ÅÎèÑÎ•º ÎùºÎîîÏïà Îã®ÏúÑÎ°ú Î≥ÄÌôò
 }
 
 FORCEINLINE void ABaseProjectile::SetLocationValue() 
